@@ -1,3 +1,29 @@
+/*NAVIGATION BAR STYLING*/
+/* NAVBAR SECTION */
+.navbar-fixed-top .navbar-toggle .icon-bar {
+  background-color: white;
+}
+
+.navbar-fixed-top .navbar-toggle {
+  border-color: white;
+}
+.navbar-nav>li>a {
+  color: white;
+}
+
+#navLogo{
+  color: white;
+  font-weight: bold;
+}
+.navbar{
+  background-color: black;
+  list-style-type:none;
+  /* float: right; */
+}
+.navbar-brand img{
+  display: inline;
+}
+/*END NAVIGATION BAR STYLING*/
 
     /*THIS IS TO KEEP THE LOGO PARTS GROUPED TOGETHER DESPITE WINDOW CHANGING RESOLUTIONS*/
     section {
@@ -84,42 +110,3 @@ div.NameI {
 }
 
 /*END LOGO STYLNG*/
-
-
-
-
-/*NAVIGATION BAR STYLING*/
-nav {
-  background:black;
-  top:0;
-  width: 100%;
-  transition:all 0.5s;
-  position: relative;
-  z-index: 1;
-}
-.fixed-nav nav {
-  position: fixed;
-  /*box-shadow: 0 10px rgba(0,0,0,0.1);  /*this is just a shadow below the navbar to be fancy*/*/
-}
-nav ul {
-  margin: 0;
-  padding:0;
-  list-style: none;
-  display:flex;
-}
-nav li {
-  flex:1;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav a {
-  text-decoration: none;
-  padding:20px;
-  display: inline-block;
-  color:white;
-  transition:all 0.2s;
-  text-transform: uppercase;
-}
-/*END NAVIGATION BAR STYLING*/
