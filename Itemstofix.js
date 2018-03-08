@@ -6,6 +6,8 @@
 
 4.  pull images from images folder.
 
+5. add browser tab logo
+
 5. Bootstrap navbar
 
 6. limit number of animations / add toggle to enable/disable animations
@@ -14,3 +16,7 @@
     //7.a  Contact us / how to order
     //7.b  How does it work?
     //7.c ...
+
+
+8. Change domain name
+(see github repo settings next to github pages section)
