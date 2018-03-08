@@ -6,14 +6,17 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width , initial-scale=1" />
 
-    <!-- JQuery MUST be above the bootstrap for some of the feautues, like hamburger, to work properly-->
-    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
+    <!-- Chrome Tab logo!  called Favicon -->
+    <link rel="icon" type="image/png" href="media/images/Logo_01-01.png">
+
+    <!-- JQuery MUST be above the bootstrap for some of the feautues, like hamburger, to work properly--> -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 
     <!-- Latest compiled and minified CSS -->
-    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
     <!-- Latest compiled and minified JavaScript -->
-    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 
     <!-- Animate.css files for pop-in animations: -->
     <!-- <link rel="stylesheet" type="text/css" href="animate.css"> -->
@@ -29,47 +32,58 @@
 
   </head>
 
+  <body>
 
+    <nav class="navbar navbar-fixed-top">
+      <div class="container-fluid">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar" aria-expanded="false">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a id="navLogo" class="navbar-brand" href="index.html"> <img id="Logo" src="media/images/Logo_01-01.png" height="25px" style="background-color: white"/>  SMOKASAURUS</a>
+        </div>
 
-    <body class="fixed-nav">
+        <div class="collapse navbar-collapse" id="myNavbar">
+          <ul class="nav navbar-nav navbar-right">
+            <li><a href="#WhatIs">WHAT IS SMOKASAURUS?</a></li>
+            <li><a href="#contact">HOW CAN I GET ONE?</a></li>
+          </ul>
+        </div><!-- /.navbar-collapse -->
 
-    <nav id="main">
-    	      <ul class="menu">
-    	        <li><a href="">Home</a></li>
-    	        <li><a href="">What is Smokasaurus</a></li>
-    	        <li><a href="">How does it work</a></li>
-    	        <li><a href="">How can I get one</a></li>
-    	      </ul>
+      </div><!-- /.container-fluid -->
     </nav>
 
-
     <section onclick="playclip();" onmouseover="playclip();">
+
       <div class="SmokeI">
         <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
       </div>
       <div class="ArmI">
        <img id="Arm" src="media/images/Arm_01-01.png" height="50%"/>
-     </div>
-     <div class="PattyI">
-       <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
-     </div>
-     <div class="HeadI">
-       <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
-     </div>
-     <div class="JawI">
-       <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
-     </div>
-     <div class="BodyI">
-       <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
-     </div>
-     <div class="NameI">
-       <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
-     </div>
+      </div>
+       <div class="PattyI">
+         <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
+       </div>
+       <div class="HeadI">
+         <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
+       </div>
+       <div class="JawI">
+         <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
+       </div>
+       <div class="BodyI">
+         <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
+       </div>
+       <div class="NameI">
+         <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
+       </div>
 
     </section>
 
     <audio>
-      <!-- <source src="Dragon_breathing_fire.mp3"> -->
+      <source src="Dragon_breathing_fire.mp3">
       <!-- sound turned off for development -->
     </audio>
     <div id="sounddiv"><bgsound id="sound"></div>
