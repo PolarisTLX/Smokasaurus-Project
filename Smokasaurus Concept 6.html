@@ -1,0 +1,198 @@
+    <html>
+    <head>
+      <title>Smokasaurus 6</title>
+      <!-- <script type="text/javascript" src="sound-mouseover.js"></script> -->
+    </head>
+
+    <body class="fixed-nav">
+
+    <nav id="main">
+    	      <ul class="menu">
+    	        <li><a href="">Home</a></li>
+    	        <li><a href="">What is Smokasaurus</a></li>
+    	        <li><a href="">How does it work</a></li>
+    	        <li><a href="">How can I get one</a></li>
+    	      </ul>
+    </nav>
+
+
+    <section onclick="playclip();" onmouseover="playclip();">
+      <div class="SmokeI">
+        <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
+      </div>
+      <div class="ArmI">
+       <img id="Arm" src="media/images/Arm_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+     <div class="PattyI">
+       <img id="Patty" src="media/images/Patty_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+     <div class="HeadI">
+       <img id="Head" src="media/images/Head_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+     <div class="JawI">
+       <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+     <div class="BodyI">
+       <img id="Body" src="media/images/Body_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+     <div class="NameI">
+       <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
+     </div>
+
+    </section>
+
+    <audio>
+      <source src="Dragon_breathing_fire.mp3">
+    </audio>
+    <div id="sounddiv"><bgsound id="sound"></div>
+      <a href="about.htm" onmouseover="playclip();"></a><br>
+
+
+    </body>
+
+    <style>
+
+    /*THIS IS TO KEEP THE LOGO PARTS GROUPED TOGETHER DESPITE WINDOW CHANGING RESOLUTIONS*/
+    section {
+      margin: 0 auto;    /*this keeps the logo centered on the page*/
+      min-width: 800px; /* Minimum width of your wrapper element */
+      max-width: 800px;
+      min-height: 800px;
+      max-height: 800px;
+
+    }
+
+
+/*THESE ARE THE TRANSFORMATIONS ON hover THAT ARE FINALLY WORKING*/
+
+
+    img#Smoke {
+      opacity: 0;
+      transform-origin: bottom left;
+      transition: all 2s ease-in-out;
+    }
+    section:hover img#Smoke {
+      opacity: 1;
+      transform: scale(2.5);
+    }
+    img#Arm {
+      transform-origin: 300px 300px;
+      transition:  1s ease-in-out;
+    }
+    section:hover img#Arm {
+        transform: rotate(20deg);
+    }
+    img#Patty {
+      transform-origin: 300px 300px;
+      transition: transform 1s ease-in-out;
+    }
+    section:hover img#Patty {
+        transform: rotate(20deg);
+    }
+    img#Head {
+      transform-origin: 275px 100px;
+      transition: transform 1s ease-in-out;
+    }
+    section:hover img#Head {
+        transform: rotate(45deg);
+    }
+    img#Jaw {
+      transform-origin: 270px 110px;
+      transition: transform 1s ease-in-out;
+    }
+    section:hover img#Jaw {
+        transform: rotate(30deg);
+    }
+    img#Name {
+      transition: all 1s ease-in-out;
+    }
+    section:hover img#Name {
+       opacity: 0;
+    }
+
+    /*END OF TRANSFORMATIONS ON hover*/
+
+/*LOGO STYLING*/
+
+div.SmokeI {
+  transform: translate(-265px, 400px) ScaleX(-1);
+}
+div.ArmI {
+  transform:translate(175px, 50px);
+}
+div.PattyI {
+  transform:translate(185px, -310px);
+}
+div.HeadI {
+  transform:translate(175px, -750px);
+}
+div.JawI {
+  transform:translate(175px, -1155px);
+}
+div.BodyI {
+  transform:translate(180px, -1550px);
+}
+div.NameI {
+  transform:translate(180px, -1950px);
+}
+
+/*END LOGO STYLNG*/
+
+
+
+
+/*NAVIGATION BAR STYLING*/
+nav {
+  background:black;
+  top:0;
+  width: 100%;
+  transition:all 0.5s;
+  position: relative;
+  z-index: 1;
+}
+.fixed-nav nav {
+  position: fixed;
+  /*box-shadow: 0 10px rgba(0,0,0,0.1);  /*this is just a shadow below the navbar to be fancy*/*/
+}
+nav ul {
+  margin: 0;
+  padding:0;
+  list-style: none;
+  display:flex;
+}
+nav li {
+  flex:1;
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+nav a {
+  text-decoration: none;
+  padding:20px;
+  display: inline-block;
+  color:white;
+  transition:all 0.2s;
+  text-transform: uppercase;
+}
+/*END NAVIGATION BAR STYLING*/
+</style>
+
+<script>
+
+function playclip() {
+  if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
+    if (document.all)   {
+      document.all.sound.src = "Dragon_breathing_fire.mp3";
+    }
+  }
+
+  else {
+    {
+      var audio = document.getElementsByTagName("audio")[0];
+      audio.play();
+    }
+  }
+}
+
+</script>
