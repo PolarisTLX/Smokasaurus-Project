@@ -1,10 +1,10 @@
-1. remove/consider display of image alt messages
+//1. remove/consider display of image alt messages
 
-2. relocate old vesions of site.
+//2. relocate old vesions of site.
 
-3. seperate CSS and JS Script from HTML to clean up HTML file.
+//3. seperate CSS and JS Script from HTML to clean up HTML file.
 
-4.  pull images from images folder.
+//4.  pull images from images folder.
 
 5. add browser tab logo
 
@@ -20,3 +20,6 @@
 
 8. Change domain name
 (see github repo settings next to github pages section)
+
+
+9. hide images if they dont display correctly

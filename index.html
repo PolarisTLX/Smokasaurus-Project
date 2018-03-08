@@ -1,4 +1,5 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html> -->
+<!-- Doctype tag above causes images to lose alignment -->
 <html>
   <head>
 
@@ -6,22 +7,22 @@
     <meta name="viewport" content="width=device-width , initial-scale=1" />
 
     <!-- JQuery MUST be above the bootstrap for some of the feautues, like hamburger, to work properly-->
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
+    <!-- <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script> -->
 
     <!-- Latest compiled and minified CSS -->
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
 
     <!-- Latest compiled and minified JavaScript -->
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+    <!-- <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script> -->
 
     <!-- Animate.css files for pop-in animations: -->
-    <link rel="stylesheet" type="text/css" href="animate.css">
+    <!-- <link rel="stylesheet" type="text/css" href="animate.css"> -->
 
     <!-- CSS GENERAL -->
-    <link rel="stylesheet" type="text/css" href="stylesheet.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
 
     <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
-    <link rel="stylesheet" type="text/css" href="responsive.css">
+    <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
 
 
     <title>Smokasaurus Project</title>
@@ -47,19 +48,19 @@
         <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
       </div>
       <div class="ArmI">
-       <img id="Arm" src="media/images/Arm_01-01.png" height="50%" alt="The image could not be loaded"/>
+       <img id="Arm" src="media/images/Arm_01-01.png" height="50%"/>
      </div>
      <div class="PattyI">
-       <img id="Patty" src="media/images/Patty_01-01.png" height="50%" alt="The image could not be loaded"/>
+       <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
      </div>
      <div class="HeadI">
-       <img id="Head" src="media/images/Head_01-01.png" height="50%" alt="The image could not be loaded"/>
+       <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
      </div>
      <div class="JawI">
-       <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%" alt="The image could not be loaded"/>
+       <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
      </div>
      <div class="BodyI">
-       <img id="Body" src="media/images/Body_01-01.png" height="50%" alt="The image could not be loaded"/>
+       <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
      </div>
      <div class="NameI">
        <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
@@ -68,157 +69,18 @@
     </section>
 
     <audio>
-      <source src="Dragon_breathing_fire.mp3">
+      <!-- <source src="Dragon_breathing_fire.mp3"> -->
+      <!-- sound turned off for development -->
     </audio>
     <div id="sounddiv"><bgsound id="sound"></div>
       <a href="about.htm" onmouseover="playclip();"></a><br>
 
 
+      <!-- Accompanied JS file with scripts written to add more interaction -->
+      <script src="script.js"> </script>
+
     </body>
 
-    <style>
-
-    /*THIS IS TO KEEP THE LOGO PARTS GROUPED TOGETHER DESPITE WINDOW CHANGING RESOLUTIONS*/
-    section {
-      margin: 0 auto;    /*this keeps the logo centered on the page*/
-      min-width: 800px; /* Minimum width of your wrapper element */
-      max-width: 800px;
-      min-height: 800px;
-      max-height: 800px;
-
-    }
 
 
-/*THESE ARE THE TRANSFORMATIONS ON hover THAT ARE FINALLY WORKING*/
-
-
-    img#Smoke {
-      opacity: 0;
-      transform-origin: bottom left;
-      transition: all 2s ease-in-out;
-    }
-    section:hover img#Smoke {
-      opacity: 1;
-      transform: scale(2.5);
-    }
-    img#Arm {
-      transform-origin: 300px 300px;
-      transition:  1s ease-in-out;
-    }
-    section:hover img#Arm {
-        transform: rotate(20deg);
-    }
-    img#Patty {
-      transform-origin: 300px 300px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Patty {
-        transform: rotate(20deg);
-    }
-    img#Head {
-      transform-origin: 275px 100px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Head {
-        transform: rotate(45deg);
-    }
-    img#Jaw {
-      transform-origin: 270px 110px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Jaw {
-        transform: rotate(30deg);
-    }
-    img#Name {
-      transition: all 1s ease-in-out;
-    }
-    section:hover img#Name {
-       opacity: 0;
-    }
-
-    /*END OF TRANSFORMATIONS ON hover*/
-
-/*LOGO STYLING*/
-
-div.SmokeI {
-  transform: translate(-265px, 400px) ScaleX(-1);
-}
-div.ArmI {
-  transform:translate(175px, 50px);
-}
-div.PattyI {
-  transform:translate(185px, -310px);
-}
-div.HeadI {
-  transform:translate(175px, -750px);
-}
-div.JawI {
-  transform:translate(175px, -1155px);
-}
-div.BodyI {
-  transform:translate(180px, -1550px);
-}
-div.NameI {
-  transform:translate(180px, -1950px);
-}
-
-/*END LOGO STYLNG*/
-
-
-
-
-/*NAVIGATION BAR STYLING*/
-nav {
-  background:black;
-  top:0;
-  width: 100%;
-  transition:all 0.5s;
-  position: relative;
-  z-index: 1;
-}
-.fixed-nav nav {
-  position: fixed;
-  /*box-shadow: 0 10px rgba(0,0,0,0.1);  /*this is just a shadow below the navbar to be fancy*/*/
-}
-nav ul {
-  margin: 0;
-  padding:0;
-  list-style: none;
-  display:flex;
-}
-nav li {
-  flex:1;
-  text-align: center;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-nav a {
-  text-decoration: none;
-  padding:20px;
-  display: inline-block;
-  color:white;
-  transition:all 0.2s;
-  text-transform: uppercase;
-}
-/*END NAVIGATION BAR STYLING*/
-</style>
-
-<script>
-
-function playclip() {
-  if (navigator.appName == "Microsoft Internet Explorer" && (navigator.appVersion.indexOf("MSIE 7")!=-1) || (navigator.appVersion.indexOf("MSIE 8")!=-1)) {
-    if (document.all)   {
-      document.all.sound.src = "Dragon_breathing_fire.mp3";
-    }
-  }
-
-  else {
-    {
-      var audio = document.getElementsByTagName("audio")[0];
-      audio.play();
-    }
-  }
-}
-
-</script>
+</html>
