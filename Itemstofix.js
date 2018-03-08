@@ -8,7 +8,7 @@
 
 5. add browser tab logo
 
-5. Bootstrap navbar
+5. Update Bootstrap navbar to bootstrap 4
 
 6. limit number of animations / add toggle to enable/disable animations
 
@@ -23,3 +23,7 @@
 
 
 9. hide images if they dont display correctly
+
+10. Optimize images / reduce size of images where applicable to improve page load time
+
+11.  Make site mobile responsive
