@@ -6,7 +6,7 @@
 
 //4.  pull images from images folder.
 
-5. add browser tab logo
+// 5. add browser tab logo
 
 5. Update Bootstrap navbar to bootstrap 4
 
@@ -27,3 +27,13 @@
 10. Optimize images / reduce size of images where applicable to improve page load time
 
 11.  Make site mobile responsive
+
+12.  fix look of tabs in navbar on hover
+
+13. volume of roar
+
+12. Recipees section.
+
+13. video footage? Embed Youtube video?
+
+14. SEO html tags
