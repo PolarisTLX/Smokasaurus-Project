@@ -8,7 +8,7 @@
 
 // 5. add browser tab logo
 
-5. Update Bootstrap navbar to bootstrap 4
+// 5. Update Bootstrap navbar to bootstrap 4
 
 6. limit number of animations / add toggle to enable/disable animations
 
