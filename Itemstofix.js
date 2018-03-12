@@ -10,6 +10,8 @@
 
 // 5. Update Bootstrap navbar to bootstrap 4
 
+6. browser tap logo should have white background to be better contrast
+
 6. limit number of animations / add toggle to enable/disable animations
 
 7. create those other pages in the navbar tabs
