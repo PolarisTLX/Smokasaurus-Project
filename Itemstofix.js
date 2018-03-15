@@ -20,7 +20,7 @@
     //7.c ...
 
 
-6:  Add Tag-line:  Automatic Charcoal Cooking
+6.  Add Tag-line:  Automatic Charcoal Cooking
 
 
 7. Create Page: "What is Smokasaurus / How does it work"
