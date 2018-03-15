@@ -1,0 +1,61 @@
+/*NAVIGATION BAR STYLING*/
+/* NAVBAR SECTION */
+nav button {
+  background-color: white;
+}
+
+/*hamburger icon: toggler:*/
+.navbar-default .navbar-toggler {
+ color: white;
+ border-color:  white;
+/*background-color: black;*/
+}
+/*hamburger 3 lines color:*/
+.navbar-default .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 32 32' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='white' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 8h24M4 16h24M4 24h24'/%3E%3C/svg%3E");
+ /*background-image with hexcode needed to change color of three lines (#FFFFFF is white) */
+}
+
+.navbar-nav .nav-link {
+  color: white;
+}
+
+.navbar-nav .nav-link:hover {
+  color: blue;
+}
+
+/* .navbar-nav .nav-link:focus {
+  color: white;
+} */
+
+#navLogo{
+  color: white;
+  font-weight: bold;
+}
+.navbar{
+  background-color: black;
+  list-style-type:none;
+  /* float: right; */
+}
+.navbar-brand img{
+  display: inline;
+}
+/*END NAVIGATION BAR STYLING*/
+
+
+body {
+  background-color: black;
+}
+
+.carousel-control-prev-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#2a2a2a' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E") !important;
+}
+.carousel-control-next-icon {
+  background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='#2a2a2a' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E") !important;
+}
+
+
+#foodGroupCategories {
+  padding-top: 75px;
+  padding-bottom: 75px;
+}

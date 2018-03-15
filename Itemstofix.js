@@ -26,7 +26,8 @@
 7. Create Page: "What is Smokasaurus / How does it work"
   photo of the smoker, hover over various parts to see a more detailed photo/description
   ex over the bottom fan.
-  "bottom casing is machine engraved with Smokasaurus logo. It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
+  "bottom casing is machine engraved with Smokasaurus logo."
+  " It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
   "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
 
 
@@ -35,6 +36,9 @@
 
 
 9. hide images if they dont display correctly
+
+9. Contact Me validation for form submission
+
 
 10. Optimize images / reduce size of images where applicable to improve page load time
 
@@ -51,3 +55,25 @@
 14. SEO html tags
 
 15. Make all colors simple and consistant accross entire site.
+
+16. fix domain name:  if you haqve your own custom domain
+Cloudflare.com
+Add custom domain to cloudflare
+you can forward that domain to github Pages
+with a CNAME record
+Forward domain to your github pages with a CNAME record
+
+
+
+FUTURE ITEMS:
+
+cooking profiles:  users can download a fan profile from online that is best for ribs, best for fish etc.
+number of hours and what temperature
+users can submit profiles for their favorite RECIPES
+users can download profiles
+users can rate profiles based on results
+
+alerts to phone:
+temperature is too high
+its too cold outside,
+need to refill charcoal (it can know because despite trying to increase fan speed to increase temp, temp still not increasing)
