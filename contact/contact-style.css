@@ -1,0 +1,63 @@
+/* NAVBAR AND FOOTER STYLE IN MAIN CSS FILE IN ROOT FOLDER */
+
+body {
+  background-image: url("../media/images/Logo_01-01.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background
+  /* background-color: black; */
+}
+
+.background-image {
+  position: relative;
+  overflow-y: hidden;
+  /* background-color: white; */
+  fill: blue;
+}
+.background-image h1 {
+    /* padding: 200px; */
+    position: relative;
+    z-index: 2;
+}
+.background-image img {
+    position: absolute;
+    left: 0;
+    top: 0;
+    fill: blue;
+
+    /* width: 100%; */
+    /* height: auto; */
+    /* opacity: 0.8; */
+}
+.logo_background {
+  fill: red;
+}
+
+
+
+/* Contact Us Form */
+#contactText {
+  margin-top: 100px;
+}
+#contactForm {
+  margin-top: 100px;
+}
+.form-control{
+  background-color: rgba(212, 212, 212, 0.8);
+  color: black !important;
+}
+::placeholder {
+  color: black !important;
+  text-shadow: 2px 2px 5px black;
+}
+
+.form-control:focus{
+  border-color: rgba(255, 0, 0, 0.6) !important;
+  box-shadow: inset 0 2px 2px rgba(0, 0, 0, 0.3), -5px 5px 10px rgba(255, 0, 0, 0.6) !important;
+  /* outline-color: #D3D3D3 !important; */
+}
+#contactSubmit {
+  color: #d3d3d3 !important;
+  background-color: #5d5d5d;
+}
+/* End Contact Us Form */
