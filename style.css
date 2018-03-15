@@ -1,4 +1,6 @@
-/*NAVIGATION BAR STYLING*/
+/* MAIN SHARED CSS FILE FOR NAVBAR & FOOTER */
+
+
 /* NAVBAR SECTION */
 nav button {
   background-color: white;
@@ -42,88 +44,41 @@ nav button {
 }
 /*END NAVIGATION BAR STYLING*/
 
-    /*THIS IS TO KEEP THE LOGO PARTS GROUPED TOGETHER DESPITE WINDOW CHANGING RESOLUTIONS*/
-    section {
-      margin: 0 auto;    /*this keeps the logo centered on the page*/
-      min-width: 800px; /* Minimum width of your wrapper element */
-      max-width: 800px;
-      min-height: 800px;
-      max-height: 800px;
-
-    }
 
 
-/*THESE ARE THE TRANSFORMATIONS ON hover THAT ARE FINALLY WORKING*/
 
 
-    img#Smoke {
-      opacity: 0;
-      transform-origin: bottom left;
-      transition: all 2s ease-in-out;
-    }
-    section:hover img#Smoke {
-      opacity: 1;
-      transform: scale(2.5);
-    }
-    img#Arm {
-      transform-origin: 300px 300px;
-      transition:  1s ease-in-out;
-    }
-    section:hover img#Arm {
-        transform: rotate(20deg);
-    }
-    img#Patty {
-      transform-origin: 300px 300px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Patty {
-        transform: rotate(20deg);
-    }
-    img#Head {
-      transform-origin: 275px 100px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Head {
-        transform: rotate(45deg);
-    }
-    img#Jaw {
-      transform-origin: 270px 110px;
-      transition: transform 1s ease-in-out;
-    }
-    section:hover img#Jaw {
-        transform: rotate(30deg);
-    }
-    img#Name {
-      transition: all 1s ease-in-out;
-    }
-    section:hover img#Name {
-       opacity: 0;
-    }
 
-    /*END OF TRANSFORMATIONS ON hover*/
-
-/*LOGO STYLING*/
-
-div.SmokeI {
-  transform: translate(-265px, 400px) ScaleX(-1);
+/*FOOTER SECTION*/
+.footer {
+  background-color: black;
+  padding-bottom: 15px;
+  padding-top: 15px;
+  border-bottom: 3px solid white;
 }
-div.ArmI {
-  transform:translate(175px, 50px);
+/* #copyright {
+  width: 50%;
+} */
+#copyright p {
+  color: #8C8B8A;
+  font-weight: 400;
+  font-size: 15px;
+  margin: 0;
+  text-transform: uppercase;
 }
-div.PattyI {
-  transform:translate(185px, -310px);
+#copyright p a {
+  text-decoration: none;
+  color: white;
 }
-div.HeadI {
-  transform:translate(175px, -750px);
+.scroll-top {
+  text-align: right;
 }
-div.JawI {
-  transform:translate(175px, -1155px);
+/*.scroll-top a {
+  background-color: #0066FF;
+  padding: 25px;
+}*/
+.scroll-top a i {
+  color: white;
+  font-size: 50px;
+  /*padding-top: 10px;*/
 }
-div.BodyI {
-  transform:translate(180px, -1550px);
-}
-div.NameI {
-  transform:translate(180px, -1950px);
-}
-
-/*END LOGO STYLNG*/

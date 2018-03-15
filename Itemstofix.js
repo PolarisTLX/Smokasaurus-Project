@@ -31,6 +31,8 @@
   "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
 
 
+7. fix social media icons in contact page
+
 8. Change domain name
 (see github repo settings next to github pages section)
 

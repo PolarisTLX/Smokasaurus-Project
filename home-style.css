@@ -1,0 +1,90 @@
+/* NAVBAR AND FOOTER STYLE IN MAIN CSS FILE IN ROOT FOLDER */
+
+
+/*THIS IS TO KEEP THE LOGO PARTS GROUPED TOGETHER DESPITE WINDOW CHANGING RESOLUTIONS*/
+section {
+  margin: 0 auto;    /*this keeps the logo centered on the page*/
+  min-width: 800px; /* Minimum width of your wrapper element */
+  max-width: 800px;
+  min-height: 800px;
+  max-height: 800px;
+
+}
+
+
+/*THESE ARE THE TRANSFORMATIONS ON hover THAT ARE FINALLY WORKING*/
+
+
+img#Smoke {
+  opacity: 0;
+  transform-origin: bottom left;
+  transition: all 2s ease-in-out;
+}
+section:hover img#Smoke {
+  opacity: 1;
+  transform: scale(2.5);
+}
+img#Arm {
+  transform-origin: 300px 300px;
+  transition:  1s ease-in-out;
+}
+section:hover img#Arm {
+    transform: rotate(20deg);
+}
+img#Patty {
+  transform-origin: 300px 300px;
+  transition: transform 1s ease-in-out;
+}
+section:hover img#Patty {
+    transform: rotate(20deg);
+}
+img#Head {
+  transform-origin: 275px 100px;
+  transition: transform 1s ease-in-out;
+}
+section:hover img#Head {
+    transform: rotate(45deg);
+}
+img#Jaw {
+  transform-origin: 270px 110px;
+  transition: transform 1s ease-in-out;
+}
+section:hover img#Jaw {
+    transform: rotate(30deg);
+}
+img#Name {
+  transition: all 1s ease-in-out;
+}
+section:hover img#Name {
+   opacity: 0;
+}
+
+/*END OF TRANSFORMATIONS ON hover*/
+
+
+
+/*LOGO STYLING*/
+
+div.SmokeI {
+  transform: translate(-265px, 400px) ScaleX(-1);
+}
+div.ArmI {
+  transform:translate(175px, 50px);
+}
+div.PattyI {
+  transform:translate(185px, -310px);
+}
+div.HeadI {
+  transform:translate(175px, -750px);
+}
+div.JawI {
+  transform:translate(175px, -1155px);
+}
+div.BodyI {
+  transform:translate(180px, -1550px);
+}
+div.NameI {
+  transform:translate(180px, -1950px);
+}
+
+/*END LOGO STYLNG*/
