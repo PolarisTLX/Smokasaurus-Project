@@ -44,10 +44,6 @@ nav button {
 }
 /*END NAVIGATION BAR STYLING*/
 
-/* To make footer stay at bottom of page */
-html,body{
-    height: 100%
-}
 
 /*FOOTER SECTION*/
 .footer {
@@ -56,8 +52,8 @@ html,body{
   padding-top: 15px;
   /* border-bottom: 3px solid white; */
 
-  /* To try and stick the footer to bottom of page */
-  position: absolute;
+  /* To stick the footer to bottom of page */
+  position: fixed; /* Fixed instead of absolute fixes the scrolling issue. */
   bottom: 0;
   width: 100%;
 }
