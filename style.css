@@ -52,12 +52,14 @@ html,body{
 /*FOOTER SECTION*/
 .footer {
   background-color: black;
-  position: absolute;
-  bottom: 0;
-  width: 100%;
   padding-bottom: 15px;
   padding-top: 15px;
   /* border-bottom: 3px solid white; */
+
+  /* To try and stick the footer to bottom of page */
+  position: absolute;
+  bottom: 0;
+  width: 100%;
 }
 /* #copyright {
   width: 50%;
