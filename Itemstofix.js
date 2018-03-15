@@ -14,10 +14,20 @@
 
 6. limit number of animations / add toggle to enable/disable animations
 
-7. create those other pages in the navbar tabs
+// 7. create those other pages in the navbar tabs
     //7.a  Contact us / how to order
     //7.b  How does it work?
     //7.c ...
+
+
+6:  Add Tag-line:  Automatic Charcoal Cooking
+
+
+7. Create Page: "What is Smokasaurus / How does it work"
+  photo of the smoker, hover over various parts to see a more detailed photo/description
+  ex over the bottom fan.
+  "bottom casing is machine engraved with Smokasaurus logo. It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
+  "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
 
 
 8. Change domain name
@@ -39,3 +49,5 @@
 13. video footage? Embed Youtube video?
 
 14. SEO html tags
+
+15. Make all colors simple and consistant accross entire site.
