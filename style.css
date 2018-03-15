@@ -44,17 +44,20 @@ nav button {
 }
 /*END NAVIGATION BAR STYLING*/
 
-
-
-
-
+/* To make footer stay at bottom of page */
+html,body{
+    height: 100%
+}
 
 /*FOOTER SECTION*/
 .footer {
   background-color: black;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
   padding-bottom: 15px;
   padding-top: 15px;
-  border-bottom: 3px solid white;
+  /* border-bottom: 3px solid white; */
 }
 /* #copyright {
   width: 50%;
