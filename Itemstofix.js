@@ -63,6 +63,8 @@ you can forward that domain to github Pages
 with a CNAME record
 Forward domain to your github pages with a CNAME record
 
+17. Separate navbar/footer into separate files that each page references (consistency)
+
 
 
 FUTURE ITEMS:
