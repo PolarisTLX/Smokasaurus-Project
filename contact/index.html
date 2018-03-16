@@ -24,6 +24,8 @@
     <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
     <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
 
+    <!-- Load other html file using HTML5 Imports call-->
+    <link rel="import" href="../navbar_and_footer.html">
 
     <title>Smokasaurus Project</title>
 
@@ -33,106 +35,81 @@
 
     <header class="HOME">
 
-    <div class="container-fluid">
-      <nav class="navbar navbar-default fixed-top navbar-expand-lg">
-
-          <!-- Putting your logo in the top left corner of the navbar -->
-          <a id="navLogo" class="navbar-brand" href="https://polaristlx.github.io/Smokasaurus-Project/">
-            <img id="Logo" src="../media/images/Logo_01-01.png" height="25px" style="background-color: white"/>  SMOKASAURUS</a>
-
-          <!-- <div class="navbar-header"> -->
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><!--Toggle Navigation--></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <!-- ml-auto  moves the items to the right of the navbar.  mr-auto does opposite -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/about/">WHAT IS SMOKASAURUS <span class="sr-only">(current)</span></a>  </li>
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/recipes/">KILLER RECIPES</a>  </li>
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/contact/">HOW CAN I GET ONE</a>  </li>
-             </ul>
-          </div>
-      </nav>
-    </div><!-- END OF NAVBAR -->
+      <div class="container-fluid">
+        <!-- Gets the navbar from navbar_and_footer.html -->
+        <script>
+          var doc = document.querySelector('link[rel="import"]').import;
+          var text = doc.querySelector('.navbar');
+          document.body.appendChild(text.cloneNode(true));
+        </script>
+      </div><!-- END OF NAVBAR -->
 
 
-  </header>
+    </header>
 
 
 
-  <!-- <section> -->
-  <div class="background-image">
+    <!-- <section> -->
+    <div class="background-image">
     <!-- <h1></h1>   <!-- This blank h1 is needed for the background image to display-->
     <!-- <img class="logo_background" src="../media/images/Logo_01-01.svg" height="300px"> --> -->
 
 
 
 
-<h1>HOW DO I GET ONE</h1>
+      <h1>HOW DO I GET ONE</h1>
 
 
-    <div class="container-fluid">
-      <div class="row">
-        <div id="contactText" class="col-md-4">
-          <h3>Get in touch with us:</h3>
-          <h5>Micheal Company Name</h5>
-          <h5>Base of Operations Location</h5>
-          <h5>1-DUM-MYP-HONE</h5>
-          <h5>dummy_email@email.com</h5>
-          <a href="linkto-facebookpage"><i class="fa fa-facebook-square" style="font-size:48px;color:#3B5998;"></i></a>
-          <a href="linkto-twitterpage"><i class="fa fa-twitter-square" style="font-size:48px;color:#00aced;"></i></a>
-          <a href="linkto-instagrampage"><i class="fa fa-instagram" style="font-size:48px;color:#c32aa3;"></i></a>
-          <a href="linkto-linkedinpage"><i class="fa fa-linkedIn-square" style="font-size:48px;color:#0077B5;"></i></a>
-        </div>
-        <div class="col-md-8">
+      <div class="container-fluid">
+        <div class="row">
+          <div id="contactText" class="col-md-4">
+            <h3>Get in touch with us:</h3>
+            <h5>Micheal Company Name</h5>
+            <h5>Base of Operations Location</h5>
+            <h5>1-DUM-MYP-HONE</h5>
+            <h5>dummy_email@email.com</h5>
+            <a href="linkto-facebookpage"><i class="fa fa-facebook-square" style="font-size:48px;color:#3B5998;"></i></a>
+            <a href="linkto-twitterpage"><i class="fa fa-twitter-square" style="font-size:48px;color:#00aced;"></i></a>
+            <a href="linkto-instagrampage"><i class="fa fa-instagram" style="font-size:48px;color:#c32aa3;"></i></a>
+            <a href="linkto-linkedinpage"><i class="fa fa-linkedIn-square" style="font-size:48px;color:#0077B5;"></i></a>
+          </div>
+          <div class="col-md-8">
 
-          <form id="contactForm" action="https://formspree.io/paul.a.rail@gmail.com" method="POST">
-            <div class="form-group">
-              <input class="form-control" type="text" name="name" placeholder="Your Name Here">
-            </div>
-            <div class="form-group">
-              <input class="form-control" type="email" name="_replyto" placeholder="Your E-Mail Address Here">
-            </div>
-            <div class="form-group">
-              <textarea class="form-control" type="message" name="messageBody" placeholder="Your Message Here" rows="4"></textarea>
-            </div>
-            <div class="form-group">
-              <input id="contactSubmit" class="form-control" type="submit" value="Send">
-            </div>
-          </form>
+            <form id="contactForm" action="https://formspree.io/paul.a.rail@gmail.com" method="POST">
+              <div class="form-group">
+                <input class="form-control" type="text" name="name" placeholder="Your Name Here">
+              </div>
+              <div class="form-group">
+                <input class="form-control" type="email" name="_replyto" placeholder="Your E-Mail Address Here">
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" type="message" name="messageBody" placeholder="Your Message Here" rows="4"></textarea>
+              </div>
+              <div class="form-group">
+                <input id="contactSubmit" class="form-control" type="submit" value="Send">
+              </div>
+            </form>
 
+          </div>
         </div>
       </div>
-    </div>
 
-
-  </div> <!--Background image container DIV-->
+    </div> <!--Background image container DIV-->
   <!-- <div>Icons made by <a href="http://www.freepik.com" title="Freepik">Freepik</a> from <a href="https://www.flaticon.com/" title="Flaticon">www.flaticon.com</a> is licensed by <a href="http://creativecommons.org/licenses/by/3.0/" title="Creative Commons BY 3.0" target="_blank">CC 3.0 BY</a></div> -->
   <!-- </section>  -->
 
 
-  <!-- FOOTER -->
-  <footer class="footer navbar-fixed-bottom">
-    <div class="container-fluid">
-      <div class="row">
-          <div class="col-sm-12">
-            <div id="copyright">
-              <p>Copyright &copy; 2018 &nbsp; <a href="#">Smokasaurus will get you</a></p>
-            </div>
-          </div>
-          <!-- <div class="col-md-6">
-              <div class="scroll-top">
-              <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-              </div>
-          </div> -->
-      </div>
-    </div>
-  </footer>
+  <!-- Gets the footer from navbar_and_footer.html -->
+    <script>
+      var doc = document.querySelector('link[rel="import"]').import;
+    // Grab DOM from doc.html's document.
+      var text = doc.querySelector('.footer');
+      document.body.appendChild(text.cloneNode(true));
+    </script>
+
 
       <!-- Accompanied JS file with scripts written to add more interaction -->
-      <script src="script.js"> </script>
+      <!-- <script src="script.js"> </script> -->
 
 
       <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->

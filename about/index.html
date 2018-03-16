@@ -24,6 +24,8 @@
     <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
     <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
 
+    <!-- Load other html file using HTML5 Imports call-->
+    <link rel="import" href="../navbar_and_footer.html">
 
     <title>Smokasaurus Project</title>
 
@@ -34,54 +36,28 @@
     <header class="HOME">
 
     <div class="container-fluid">
-      <nav class="navbar navbar-default fixed-top navbar-expand-lg">
-
-          <!-- Putting your logo in the top left corner of the navbar -->
-          <a id="navLogo" class="navbar-brand" href="https://polaristlx.github.io/Smokasaurus-Project/">
-            <img id="Logo" src="../media/images/Logo_01-01.png" height="25px" style="background-color: white"/>  SMOKASAURUS</a>
-
-          <!-- <div class="navbar-header"> -->
-
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><!--Toggle Navigation--></span>
-          </button>
-
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <!-- ml-auto  moves the items to the right of the navbar.  mr-auto does opposite -->
-            <ul class="navbar-nav ml-auto">
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/about/">WHAT IS SMOKASAURUS <span class="sr-only">(current)</span></a>  </li>
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/recipes/">KILLER RECIPES</a>  </li>
-                <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/contact/">HOW CAN I GET ONE</a>  </li>
-             </ul>
-          </div>
-      </nav>
+      <!-- Gets the navbar from navbar_and_footer.html -->
+      <script>
+        var doc = document.querySelector('link[rel="import"]').import;
+        var text = doc.querySelector('.navbar');
+        document.body.appendChild(text.cloneNode(true));
+      </script>
     </div><!-- END OF NAVBAR -->
 
 
   </header>
 
 
+  <!-- Gets the footer from navbar_and_footer.html -->
+  <script>
+    var doc = document.querySelector('link[rel="import"]').import;
+    var text = doc.querySelector('.footer');
+    document.body.appendChild(text.cloneNode(true));
+  </script>
 
-  <!-- FOOTER -->
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-          <div class="col-sm-12">
-            <div id="copyright">
-              <p>Copyright &copy; 2018 &nbsp; <a href="#">Smokasaurus will get you</a></p>
-            </div>
-          </div>
-          <!-- <div class="col-md-6">
-              <div class="scroll-top">
-              <a href="#HOME" id="scroll-to-top"><i class="fa fa-angle-up"></i></a>
-              </div>
-          </div> -->
-      </div>
-    </div>
-  </footer>
 
       <!-- Accompanied JS file with scripts written to add more interaction -->
-      <script src="script.js"> </script>
+      <!-- <script src="script.js"> </script> -->
 
 
       <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->

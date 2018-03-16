@@ -1,5 +1,6 @@
 <!-- <!DOCTYPE html> -->
 <!-- Doctype tag above causes images to lose alignment -->
+
 <html>
   <head>
 
@@ -21,66 +22,50 @@
     <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
     <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
 
+    <!-- Load other html file using HTML5 Imports call-->
+    <link rel="import" href="navbar_and_footer.html">
 
     <title>Smokasaurus Project</title>
 
   </head>
 
   <body>
-
     <header class="HOME">
 
-    <div class="container-fluid">
-      <nav class="navbar navbar-default fixed-top navbar-expand-lg">
+      <!-- Gets the navbar from navbar_and_footer.html -->
+      <script>
+        var doc = document.querySelector('link[rel="import"]').import;
+        var text = doc.querySelector('.navbar');
+        document.body.appendChild(text.cloneNode(true));
+      </script>
 
-          <!-- Putting your logo in the top left corner of the navbar -->
-          <a id="navLogo" class="navbar-brand" href="https://polaristlx.github.io/Smokasaurus-Project/">
-            <img id="Logo" src="media/images/Logo_01-01.png" height="25px" style="background-color: white"/>  SMOKASAURUS</a>
+      <section onclick="playclip();" onmouseover="playclip();">
 
-          <!-- <div class="navbar-header"> -->
+        <div class="SmokeI">
+          <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
+        </div>
+        <div class="ArmI">
+         <img id="Arm" src="media/images/Arm_01-01.png" height="50%"/>
+        </div>
+         <div class="PattyI">
+           <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
+         </div>
+         <div class="HeadI">
+           <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
+         </div>
+         <div class="JawI">
+           <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
+         </div>
+         <div class="BodyI">
+           <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
+         </div>
+         <div class="NameI">
+           <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
+         </div>
 
-          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#myNavbar" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"><!--Toggle Navigation--></span>
-          </button>
+      </section>
 
-          <div class="collapse navbar-collapse" id="myNavbar">
-            <!-- ml-auto  moves the items to the right of the navbar.  mr-auto does opposite -->
-             <ul class="navbar-nav ml-auto">
-                 <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/about/">WHAT IS SMOKASAURUS <span class="sr-only">(current)</span></a>  </li>
-                 <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/recipes/">KILLER RECIPES</a>  </li>
-                 <li class="nav-item">  <a class="nav-link" href="https://polaristlx.github.io/Smokasaurus-Project/contact/">HOW CAN I GET ONE</a>  </li>
-              </ul>
-          </div>
-      </nav>
-    </div><!-- END OF NAVBAR -->
-
-    <section onclick="playclip();" onmouseover="playclip();">
-
-      <div class="SmokeI">
-        <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
-      </div>
-      <div class="ArmI">
-       <img id="Arm" src="media/images/Arm_01-01.png" height="50%"/>
-      </div>
-       <div class="PattyI">
-         <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
-       </div>
-       <div class="HeadI">
-         <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
-       </div>
-       <div class="JawI">
-         <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
-       </div>
-       <div class="BodyI">
-         <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
-       </div>
-       <div class="NameI">
-         <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
-       </div>
-
-    </section>
-
-  </header>
+    </header>
 
     <audio>
       <!-- <source src="Dragon_breathing_fire.mp3"> -->
@@ -89,16 +74,21 @@
     <div id="sounddiv"><bgsound id="sound"></div>
       <a href="about.htm" onmouseover="playclip();"></a><br>
 
+      <!-- Gets the footer from navbar_and_footer.html -->
+      <script>
+        var doc = document.querySelector('link[rel="import"]').import;
+        var text = doc.querySelector('.footer');
+        document.body.appendChild(text.cloneNode(true));
+      </script>
+
 
       <!-- Accompanied JS file with scripts written to add more interaction -->
       <script src="script.js"> </script>
-
 
       <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
-
 
     </body>
 </html>
