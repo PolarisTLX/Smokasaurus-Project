@@ -4,3 +4,19 @@
 body {
   background-color: black;
 }
+
+#about-main {
+  padding-top: 100px;
+}
+
+
+.side-images {
+  /* side images are invisible to start */
+  visibility: hidden;
+}
+
+
+#side-images {
+  /* side images are invisible to start */
+  visibility: hidden;
+}
