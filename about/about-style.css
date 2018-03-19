@@ -3,6 +3,7 @@
 
 body {
   background-color: black;
+  overflow-x: hidden;
 }
 
 #about-main {
@@ -12,8 +13,8 @@ body {
 
 
 .side-images {
-  /* side images are invisible to start */
-  visibility: hidden;
+  /* EXPERIMENT: side images are invisible to start */
+  /* visibility: hidden; */
 }
 
 p.side-images {
@@ -24,4 +25,9 @@ p.side-images {
   border: solid 2px white;
   color: black;
   text-align: left;
+}
+
+
+.bottom-casing {
+  margin-top: auto;
 }
