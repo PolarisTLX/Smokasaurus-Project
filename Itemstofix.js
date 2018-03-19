@@ -12,7 +12,7 @@
 
 6. browser tap logo should have white background to be better contrast
 
-6. limit number of animations / add toggle to enable/disable animations
+6. limit number of animation occurences on landing page / add toggle to enable/disable animations
 
 // 7. create those other pages in the navbar tabs
     //7.a  Contact us / how to order
@@ -23,13 +23,15 @@
 6.  Add Tag-line:  Automatic Charcoal Cooking
 
 
-7. Create Page: "What is Smokasaurus / How does it work"
-  photo of the smoker, hover over various parts to see a more detailed photo/description
-  ex over the bottom fan.
-  "bottom casing is machine engraved with Smokasaurus logo."
-  " It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
-  "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
+// 7. Create Page: "What is Smokasaurus / How does it work"
+//   "bottom casing is machine engraved with Smokasaurus logo."
+//   " It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
+//   "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
 
+7. About page:   descriptions appear when hovering over various parts of main image
+   ex hover over the bottom fan.
+
+7. Fix animation first pop in on page-load
 
 7. fix social media icons in contact page
 

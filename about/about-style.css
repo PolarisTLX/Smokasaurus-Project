@@ -7,15 +7,19 @@ body {
 }
 
 #about-main {
-  padding-top: 100px;
+  padding-top: 75px;
   padding-bottom: 50px;
 }
 
+h1 {
+  color: rgb(212, 212, 212);
+  padding-bottom: 25px;
+}
 
-.side-images {
+/* .side-images { */
   /* EXPERIMENT: side images are invisible to start */
   /* visibility: hidden; */
-}
+/* } */
 
 p.side-images {
   margin: 10px;
