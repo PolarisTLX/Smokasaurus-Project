@@ -20,7 +20,9 @@
     //7.c ...
 
 
-6.  Add Tag-line:  Automatic Charcoal Cooking
+6. Remove pics in recipees section that are found in the about section.
+
+// 6.  Add Tag-line:  Automatic Charcoal Cooking
 
 
 // 7. Create Page: "What is Smokasaurus / How does it work"
@@ -34,6 +36,9 @@
 7. Fix animation first pop in on page-load
 
 7. fix social media icons in contact page
+
+
+8. add proper bootstrap "container-fluid" etc  to everything
 
 8. Change domain name
 (see github repo settings next to github pages section)
