@@ -16,6 +16,10 @@ h1 {
   padding-bottom: 25px;
 }
 
+img {
+  border-radius: 5px;
+}
+
 /* .side-images { */
   /* EXPERIMENT: side images are invisible to start */
   /* visibility: hidden; */
