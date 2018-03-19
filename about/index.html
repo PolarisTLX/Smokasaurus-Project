@@ -9,6 +9,7 @@
     <!-- Chrome Tab logo!  called Favicon -->
     <link rel="icon" type="image/png" href="../media/images/Logo_01-01.png">
 
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
 
     <!-- Bootstrap 4 CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
@@ -16,10 +17,14 @@
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+    <!-- Animate.css files for pop-in animations: -->
+    <link rel="stylesheet" type="text/css" href="animate.css">
+
     <!-- CSS GENERAL (Navbar, Footer etc.) -->
     <link rel="stylesheet" type="text/css" href="../style.css">
     <!-- CSS SPECIFIC TO THIS SUB-PAGE -->
     <link rel="stylesheet" type="text/css" href="about-style.css">
+
 
     <!-- RESPONSIVE CSS FOR SMALLER SCREEN SIZES -->
     <!-- <link rel="stylesheet" type="text/css" href="responsive.css"> -->
@@ -60,13 +65,71 @@
 
   </header>
 
+<section id="about-main">
+  <div class="container-fluid">
+
+    <div class="row text-center">
+
+      <!-- Fade in image on left -->
+      <div class="col-md-4 bottom-casing wow FadeInLeft" data-wow-duration="2s" data-wow-delay="0.75s">
+        <p class="side-images">
+            The bottom casing is machine-engraved with the Smokasaurus logo.
+            It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal.
+            The fan is electronically controlled via a temperature sensor so that it is always
+            providing the right amount of circulation to maintain the perfect temperature automatically.
+        </p>
+        <img class="side-images" src="../media/images/drilled-logo.jpg" width="300px" alt="Air Intake Box with machined logo">
+      </div>
+
+      <!-- Main Center Image -->
+      <div class="col-md-4">
+        <img id="main-image" src="../media/images/prototype-single.jpg" width="400px" alt="Smokasaurus Device">
+      </div>
+
+      <!-- Fade in images on right -->
+      <div class="col-md-4">
+
+        <!-- top right -->
+        <div class="row">
+          <div class="col-md-12 wow FadeInRight" data-wow-duration="2s" data-wow-delay="0.75s">
+            <img class="side-images" src="../media/images/wooden-handles.jpg" width="200px" alt="Wooden Handles">
+            <p class="side-images">
+                The handles are made of oak wood to insulate for protecting the
+                hands, and to add a premium feel.
+            </p>
+          </div>
+        </div>
+        <br/>
+
+        <!-- bottom right -->
+        <div class="row">
+          <div class="col-md-12 wow FadeInRight" data-wow-duration="2s" data-wow-delay="0.75s">
+            <img class="side-images" src="../media/images/control-unit.jpg" width="200px" alt="Control Unit">
+            <p class="side-images">
+                This control unit is what sets Smokasaurus apart from other smokers on the market.
+                Using our secure web app, you can monitor and control your smoker from anywhere
+                via your phone, tablet or desktop.
+            </p>
+          </div>
+        </div>
+
+      </div>  <!--End of right-column-->
+
+
+    </div>
+
+  </div>
+</section>
+
+
+
 
 
   <!-- FOOTER -->
   <footer class="footer">
     <div class="container">
       <div class="row">
-          <div class="col-sm-12">
+          <div class="col-md-12">
             <div id="copyright">
               <p>Copyright &copy; 2018 &nbsp; <a href="#">Smokasaurus will get you</a></p>
             </div>
@@ -81,11 +144,13 @@
   </footer>
 
       <!-- Accompanied JS file with scripts written to add more interaction -->
-      <script src="script.js"> </script>
+      <script src="about-script.js"> </script>
+
+      <!-- WOW.js file for pop-in animations: -->
+      <script src="wow.min.js"></script>
 
 
       <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->
-      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 
