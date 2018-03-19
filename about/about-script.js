@@ -14,3 +14,9 @@ function showSideImages() {
     }
 
 }
+
+$(document).ready(function() {
+  'use strict';
+
+  new WOW().init();
+});
