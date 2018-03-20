@@ -10,7 +10,7 @@
 
 // 5. Update Bootstrap navbar to bootstrap 4
 
-6. browser tap logo should have white background to be better contrast
+//6. browser tab logo should have white background to be better contrast
 
 6. limit number of animation occurences on landing page / add toggle to enable/disable animations
 
@@ -20,7 +20,7 @@
     //7.c ...
 
 
-6. Remove pics in recipees section that are found in the about section.
+//6. Remove pics in recipees section that are found in the about section.
 
 // 6.  Add Tag-line:  Automatic Charcoal Cooking
 
@@ -38,7 +38,7 @@
 7. fix social media icons in contact page
 
 
-8. add proper bootstrap "container-fluid" etc  to everything
+//8. add proper bootstrap "container-fluid" etc  to everything
 
 8. Change domain name
 (see github repo settings next to github pages section)
@@ -51,7 +51,10 @@
 
 10. Optimize images / reduce size of images where applicable to improve page load time
 
+//10.2 Make carousel images consistent height
+
 11.  Make site mobile responsive
+  11. a. Contact page submit button disappears under footer on small screen
 
 12.  fix look of tabs in navbar on hover
 

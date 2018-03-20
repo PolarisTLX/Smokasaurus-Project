@@ -1,7 +1,7 @@
 /* NAVBAR AND FOOTER STYLE IN MAIN CSS FILE IN ROOT FOLDER */
 
 body {
-  background-image: url("../media/images/Logo_01-01.png");
+  background-image: url("../media/images/Logo_dark.png");
   background-repeat: no-repeat;
   background-size: cover;
   background
@@ -12,10 +12,10 @@ body {
   position: relative;
   overflow-y: hidden;
   /* background-color: white; */
-  fill: blue;
+  /* fill: blue; */
 }
 .background-image h1 {
-    /* padding: 200px; */
+    padding-top: 100px;
     position: relative;
     z-index: 2;
 }
@@ -23,7 +23,7 @@ body {
     position: absolute;
     left: 0;
     top: 0;
-    fill: blue;
+    /* fill: blue; */
 
     /* width: 100%; */
     /* height: auto; */
@@ -33,7 +33,10 @@ body {
   fill: red;
 }
 
-
+/* Contact Info */
+i, h1, h3, h5 {
+  color: rgb(212, 212, 212);
+}
 
 /* Contact Us Form */
 #contactText {
