@@ -35,7 +35,7 @@
 
 7. Fix animation first pop in on page-load
 
-7. fix social media icons in contact page
+//7. fix social media icons in contact page
 
 
 //8. add proper bootstrap "container-fluid" etc  to everything
@@ -46,7 +46,8 @@
 
 9. hide images if they dont display correctly
 
-9. Contact Me validation for form submission
+9. Improve validation for form submission
+
 
 //9. c. fix background image fill/darker outline
 

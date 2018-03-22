@@ -91,13 +91,15 @@
 
           <form id="contactForm" action="https://formspree.io/paul.a.rail@gmail.com" method="POST">
             <div class="form-group">
-              <input class="form-control" type="text" name="name" placeholder="Your Name Here">
+              <input class="form-control" type="text" name="name" placeholder="Your Name Here" id="name">
             </div>
             <div class="form-group">
-              <input class="form-control" type="email" name="_replyto" placeholder="Your E-Mail Address Here">
+              <input class="form-control" type="email" name="_replyto" placeholder="Your E-Mail Address Here" id="email" required>
+              <!-- <span id="emailErrors"></span> -->
             </div>
             <div class="form-group">
-              <textarea class="form-control" type="message" name="messageBody" placeholder="Your Message Here" rows="4"></textarea>
+              <textarea class="form-control" type="message" name="messageBody" placeholder="Your Message Here" rows="4" id="textbox" required></textarea>
+              <!-- <span id="textErrors"></span> -->
             </div>
             <div class="form-group">
               <input id="contactSubmit" class="form-control" type="submit" value="Send">
@@ -140,7 +142,22 @@
       <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
       <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+      <!-- <script>
+        function validate() {
+            var name = document.getElementbyId('name').value;
+            var email = document.getElementbyId('email').value;
+            var text = document.getElementbyId('textbox').value;
 
+            if ( email.length < 7 ) {
+              document.getElementbyId('emailErrors').innerHTML = "Email invalid";
+              return false;
+            }
+            if ( text == "" ){
+              document.getElementbyId('textErrors').innerHTML = "Please type a message";
+              return false;
+            }
+        }
+      </script> -->
 
     </body>
 </html>
