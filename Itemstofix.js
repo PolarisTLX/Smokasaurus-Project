@@ -48,6 +48,7 @@
 
 9. Contact Me validation for form submission
 
+9. c. fix background image fill/darker outline
 
 10. Optimize images / reduce size of images where applicable to improve page load time
 
@@ -64,7 +65,7 @@
 
 13. video footage? Embed Youtube video?
 
-14. SEO html tags
+// 14. SEO html tags
 
 15. Make all colors simple and consistant accross entire site.
 
