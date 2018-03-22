@@ -48,7 +48,7 @@
 
 9. Contact Me validation for form submission
 
-9. c. fix background image fill/darker outline
+//9. c. fix background image fill/darker outline
 
 10. Optimize images / reduce size of images where applicable to improve page load time
 
