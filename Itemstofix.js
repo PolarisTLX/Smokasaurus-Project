@@ -81,6 +81,9 @@ Forward domain to your github pages with a CNAME record
 
 FUTURE ITEMS:
 
+Users can register and input a username (just their e-mail?) and a unique password.
+register / login / logout
+
 cooking profiles:  users can download a fan profile from online that is best for ribs, best for fish etc.
 number of hours and what temperature
 users can submit profiles for their favorite RECIPES
