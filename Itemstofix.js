@@ -80,6 +80,7 @@ Forward domain to your github pages with a CNAME record
 17. Separate navbar/footer into separate files that each page references (consistency)
 
 
+Chanhe navbar blue to color to somethinh else like red or grey to be more consistant.
 
 FUTURE ITEMS:
 
