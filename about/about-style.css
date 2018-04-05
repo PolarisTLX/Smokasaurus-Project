@@ -1,5 +1,8 @@
 /* NAVBAR AND FOOTER STYLE IN MAIN CSS FILE IN ROOT FOLDER */
-
+.container-fluid {
+  margin: 0;
+  padding: 0;
+}
 
 body {
   background-color: black;
@@ -16,8 +19,30 @@ h1 {
   padding-bottom: 25px;
 }
 
-img {
-  border-radius: 5px;
+section img {
+  max-width: 400px;
+  width: 100vw;
+  /* border-radius: 5px; */
+}
+
+#main-image {
+  /* margin: auto; */
+  /* max-height: 80vh; */
+  max-width: 400px;
+  width: 100vw;
+}
+
+.left-img, .right-img {
+
+}
+
+.description {
+  font-size: 5vmin;
+  margin: 10vw;
+  color: white;
+}
+.description strong{
+  font-size: 10vw;
 }
 
 /* .side-images { */

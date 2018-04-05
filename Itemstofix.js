@@ -85,7 +85,7 @@ Chanhe navbar blue to color to somethinh else like red or grey to be more consis
 
 First Feedback Session with Mike :
 
-A. Change navbar item color from blue to red or some grey.
+//A. Change navbar item color from blue to red or some grey.
 B. Simplyfy the recipes, dont have seperate sections for each type
    at least for now but perhaps re-instate one day when there is more content.
 C. Change ABOUT page to be more like iPhone page.
