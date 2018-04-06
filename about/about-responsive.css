@@ -1,0 +1,27 @@
+/* for Desktop and Laptops: */
+@media only screen and (min-width: 768px) /*and (orientation:landscape)*/ {
+
+  section img {
+    text-align: center;
+    max-width: 500px;
+    width: 150vw;
+    /* border-radius: 5px; */
+  }
+  #topTitle {
+    font-size: 4.5vmin;
+    font-weight: bold;
+    /* position: absolute;
+    transform: translate(-120%, 40%); */
+  }
+  .description {
+    font-size: 3vmin;
+    margin: 10vh 33vw;
+    color: white;
+  }
+  .description strong{
+    font-size: 4.5vmin;
+    position: absolute;
+    transform: translate(-140%, 50%);
+  }
+
+}
