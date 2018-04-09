@@ -83,13 +83,16 @@ Forward domain to your github pages with a CNAME record
 Chanhe navbar blue to color to somethinh else like red or grey to be more consistant.
 
 
-First Feedback Session with Mike :
+First Feedback Session with Client :
 
 //A. Change navbar item color from blue to red or some grey.
 B. Simplyfy the recipes, dont have seperate sections for each type
    at least for now but perhaps re-instate one day when there is more content.
 C. Change ABOUT page to be more like iPhone page.
 
+Second feedback session : 
+Client happy with the mobile approach to the About section, so will be applying the same structure to the other sections.
+Client is planning on getting some more professional photos taken that they will then provide to us for the final site.
 
 
 
