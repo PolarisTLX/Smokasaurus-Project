@@ -32,6 +32,64 @@ section img {
   width: 100vw;
 }
 
+.handle-button {
+  position: absolute;
+  height: 15vw;
+  width: 15vw;
+  max-width: 100px;
+  max-height: 100px;
+  top: 36%;
+  left: 45%;
+  background-color: rgba(212, 212, 212, 0);
+  border: 10px solid rgba(212, 212, 212, 0.5);
+  /* border: 10px solid red; */
+  border-radius: 5px;
+  z-index: 3;
+}
+.handle-button:hover {
+  border: 10px solid rgba(212, 212, 212, 0.8);
+  background-color: rgba(212, 212, 212, 0.2);
+}
+.control-unit-button {
+  position: absolute;
+  height: 18vw;
+  width: 18vw;
+  /* max-width: 100px; */
+  /* max-height: 100px; */
+  top: 54%;
+  left: 37%;
+  background-color: rgba(212, 212, 212, 0);
+  border: 10px solid rgba(212, 212, 212, 0.5);
+  /* border: 10px solid red; */
+  border-radius: 5px;
+  z-index: 3;
+}
+.control-unit-button:hover {
+  border: 10px solid rgba(212, 212, 212, 0.8);
+  background-color: rgba(212, 212, 212, 0.2);
+}
+.fan-button {
+  position: absolute;
+  height: 13vw;
+  width: 13vw;
+  max-width: 100px;
+  max-height: 100px;
+  top: 87%;
+  left: 40%;
+  background-color: rgba(212, 212, 212, 0);
+  border: 10px solid rgba(212, 212, 212, 0.5);
+  /* border: 10px solid red; */
+  border-radius: 5px;
+  z-index: 3;
+}
+.fan-button:hover {
+  border: 10px solid rgba(212, 212, 212, 0.8);
+  background-color: rgba(212, 212, 212, 0.2);
+}
+/* .test {
+    min-height: 100%;
+} */
+
 .left-img, .right-img {
 
 }
