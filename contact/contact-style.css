@@ -4,7 +4,8 @@ body {
   background-image: url("../media/images/Logo-background-gradient.png");
   background-repeat: no-repeat;
   background-size: cover;
-  background
+  background-color: black;
+  /* background */
   /* background-color: black; */
 }
 
@@ -29,8 +30,21 @@ body {
     /* height: auto; */
     /* opacity: 0.8; */
 }
-.logo_background {
+/* .logo_background {
   fill: red;
+} */
+
+.contact-container {
+  display: grid;
+  grid-template-columns: 33.33% 66.67%;
+}
+
+.contact-info {
+  grid-area: 1 / 1 / 2 / 2;
+}
+
+.contact-form {
+  grid-area: 1 / 2 / 2 / 3;
 }
 
 /* Contact Info */

@@ -26,73 +26,56 @@ section img {
 }
 
 #main-image {
+  position: relative;
   /* margin: auto; */
   /* max-height: 80vh; */
   max-width: 400px;
   width: 100vw;
 }
 
+.about-buttons {
+  position: absolute;
+  max-width: 100px;
+  max-height: 100px;
+  background-color: rgba(212, 212, 212, 0);
+  border: 10px solid rgba(212, 212, 212, 0.5);
+  /* border: 10px solid red; */
+  border-radius: 5px;
+  z-index: 3;
+}
+
+.about-buttons:hover {
+  border: 10px solid rgba(212, 212, 212, 0.8);
+  background-color: rgba(212, 212, 212, 0.2);
+}
+
 .handle-button {
-  position: absolute;
-  height: 15vw;
-  width: 15vw;
-  max-width: 100px;
-  max-height: 100px;
+  height: 15%;
+  width: 15%;
   top: 36%;
-  left: 45%;
-  background-color: rgba(212, 212, 212, 0);
-  border: 10px solid rgba(212, 212, 212, 0.5);
-  /* border: 10px solid red; */
-  border-radius: 5px;
-  z-index: 3;
+  left: 47.5%;
 }
-.handle-button:hover {
-  border: 10px solid rgba(212, 212, 212, 0.8);
-  background-color: rgba(212, 212, 212, 0.2);
-}
+
 .control-unit-button {
-  position: absolute;
-  height: 18vw;
-  width: 18vw;
-  /* max-width: 100px; */
-  /* max-height: 100px; */
-  top: 54%;
-  left: 37%;
-  background-color: rgba(212, 212, 212, 0);
-  border: 10px solid rgba(212, 212, 212, 0.5);
-  /* border: 10px solid red; */
-  border-radius: 5px;
-  z-index: 3;
+  height: 20%;
+  width: 20%;
+  top: 55%;
+  left: 44%;
 }
-.control-unit-button:hover {
-  border: 10px solid rgba(212, 212, 212, 0.8);
-  background-color: rgba(212, 212, 212, 0.2);
-}
+
 .fan-button {
-  position: absolute;
-  height: 13vw;
-  width: 13vw;
-  max-width: 100px;
-  max-height: 100px;
-  top: 87%;
-  left: 40%;
-  background-color: rgba(212, 212, 212, 0);
-  border: 10px solid rgba(212, 212, 212, 0.5);
-  /* border: 10px solid red; */
-  border-radius: 5px;
-  z-index: 3;
-}
-.fan-button:hover {
-  border: 10px solid rgba(212, 212, 212, 0.8);
-  background-color: rgba(212, 212, 212, 0.2);
+  height: 13%;
+  width: 13%;
+  top: 86%;
+  left: 44%;
 }
 /* .test {
     min-height: 100%;
 } */
 
-.left-img, .right-img {
+/* .left-img, .right-img {
 
-}
+} */
 
 .description {
   font-size: 5vmin;
@@ -108,7 +91,7 @@ section img {
   /* visibility: hidden; */
 /* } */
 
-p.side-images {
+/* p.side-images {
   margin: 10px;
   padding: 10px;
   background-color: rgb(212, 212, 212);
@@ -116,7 +99,7 @@ p.side-images {
   border: solid 2px white;
   color: black;
   text-align: left;
-}
+} */
 
 
 .bottom-casing {

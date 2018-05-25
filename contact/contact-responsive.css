@@ -1,0 +1,31 @@
+@media only screen and (max-width: 767px) /*and (orientation:landscape)*/ {
+  body {
+    background-position: 0 50px;
+    background-size: contain;
+  }
+  .contact-container {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-rows: auto;
+  }
+
+  .contact-info {
+    grid-area: 2 / 1 / 3 / 2;
+    padding-bottom: 80px;
+  }
+
+  .contact-form {
+    grid-area: 1 / 1 / 2 / 2;
+  }
+
+  h1 {
+    font-size: 7vw;
+  }
+
+  #contactText {
+    margin-top: 25px;
+  }
+  #contactForm {
+    margin-top: 25px;
+  }
+}

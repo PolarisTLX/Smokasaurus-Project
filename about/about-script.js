@@ -16,13 +16,13 @@ function showSideImages() {
     }
 }
 */
-
-$(document).ready(function() {
-  'use strict';
-
-  new WOW().init();
-});
-
+// 
+// $(document).ready(function() {
+//   'use strict';
+//
+//   new WOW().init();
+// });
+//
 
 //add smooth scrolling
 // $(document).ready(function() {
