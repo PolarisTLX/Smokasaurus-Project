@@ -64,7 +64,7 @@ body {
 }
 #Head, #Jaw, #Body, #Arm, #Patty, #Name {
   height: 50vw;
-  max-height: 600px;
+  max-height: 500px;
   margin: 0 auto;
 }
 .SmokeI {
