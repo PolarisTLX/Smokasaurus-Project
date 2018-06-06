@@ -33,10 +33,9 @@
 
   <body>
 
-    <!-- <header class="HOME">
-    </header> -->
+    <header class="HOME">
 
-    <div class="container-fluid topbar">
+    <div class="container-fluid">
       <nav class="navbar navbar-default fixed-top navbar-expand-lg">
 
           <!-- Putting your logo in the top left corner of the navbar -->
@@ -60,54 +59,52 @@
       </nav>
     </div><!-- END OF NAVBAR -->
 
-    <!-- <div class="content1">someting</div>
-    <div class="content2">someting2</div>
-    <div class="content3">someting3</div> -->
+    <section class="container-fluid" onclick="playclip();" onmouseover="playclip();">
 
-    <section class="container-fluid animated-logo" onclick="playclip();" onmouseover="playclip();">
-
-      <!-- <div class="HeadI"> -->
-          <img id="Head" src="media/images/Head_01-01.png"/>
-      <!-- </div> -->
-      <!-- <div class="JawI"> -->
-          <img id="Jaw" src="media/images/Jaw_01-01.png"/>
-      <!-- </div> -->
-      <!-- <div class="BodyI"> -->
-          <img id="Body" src="media/images/Body_01-01.png"/>
-      <!-- </div> -->
-      <!-- <div class="ArmI"> -->
-          <img id="Arm" src="media/images/Arm_01-01.png"/>
-      <!-- </div> -->
-      <!-- <div class="PattyI"> -->
-          <img id="Patty" src="media/images/Patty_01-01.png"/>
-      <!-- </div> -->
-      <!-- <div class="NameI"> -->
-          <img id="Name" src="media/images/Name_01-01.png" alt="The image could not be loaded"/>
-      <!-- </div> -->
       <div class="SmokeI">
-         <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
+        <img id="smoke" src="media/images/Smoke clouds.png" height="20%"/>
       </div>
+      <div class="ArmI">
+       <img id="Arm" src="media/images/Arm_01-01.png" height="50%"/>
+      </div>
+       <div class="PattyI">
+         <img id="Patty" src="media/images/Patty_01-01.png" height="50%"/>
+       </div>
+       <div class="HeadI">
+         <img id="Head" src="media/images/Head_01-01.png" height="50%"/>
+       </div>
+       <div class="JawI">
+         <img id="Jaw" src="media/images/Jaw_01-01.png" height="50%"/>
+       </div>
+       <div class="BodyI">
+         <img id="Body" src="media/images/Body_01-01.png" height="50%"/>
+       </div>
+       <div class="NameI">
+         <img id="Name" src="media/images/Name_01-01.png" height="50%" alt="The image could not be loaded"/>
+       </div>
 
     </section>
 
 
+  </header>
 
-    <!-- <audio> -->
+    <audio>
       <!-- sound turned off for development -->
       <!-- <source src="media/sounds/Dragon_breathing_fire.mp3"> -->
-    <!-- </audio> -->
+    </audio>
     <!-- <div id="sounddiv"><bgsound id="sound"></div>
       <a href="about.htm" onmouseover="playclip();"></a><br> -->
 
 
+      <!-- Accompanied JS file with scripts written to add more interaction -->
+      <script src="script.js"> </script>
+
+
+      <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->
+      <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+      <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+
+
     </body>
-
-    <!-- Accompanied JS file with scripts written to add more interaction -->
-    <script src="script.js"> </script>
-
-
-    <!-- Bootstrap 4 JS requirements: jQuery, Popper.js, BootstrapJS script -->
-    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 </html>
