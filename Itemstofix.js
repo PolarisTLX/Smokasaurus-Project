@@ -33,7 +33,7 @@
 7. About page:   descriptions appear when hovering over various parts of main image
    ex hover over the bottom fan.
 
-7. Fix animation first pop in on page-load
+// 7. Fix animation first pop in on page-load
 
 //7. fix social media icons in contact page
 
@@ -46,7 +46,7 @@
 
 9. hide images if they dont display correctly
 
-9. Improve validation for form submission
+// 9. Improve validation for form submission
 
 
 //9. c. fix background image fill/darker outline
@@ -56,7 +56,7 @@
 //10.2 Make carousel images consistent height
 
 11.  Make site mobile responsive
-  11. a. Contact page submit button disappears under footer on small screen
+  // 11. a. Contact page submit button disappears under footer on small screen
 
 12.  fix look of tabs in navbar on hover
 
