@@ -30,8 +30,15 @@
 //   " It holds a fan that provides the oxygen needed to fuel the combustion of the charcoal."
 //   "The fan is electronically controlled via a temperature sensor so that it is always providing the right amount of circulation to maintain the perfect temperature automatically."
 
-7. About page:   descriptions appear when hovering over various parts of main image
-   ex hover over the bottom fan.
+7. About page:   //descriptions appear when hovering over various parts of main image
+  // ex hover over the bottom fan.
+Now with a vertical scrolling design similar to iphone page, as requested by client. 
+Clickable sections are highlightes on main image as user hovers over it, they outline various features of the product,
+And clicking on them makes the page scroll down to a section that gives more details and a closeup on that feature.
+Need to fix the positioning of these highlight sections.
+
+//7.b made this about page mobile friendly.
+7.c need to implement a smooth scroll to this action to be more pleasing to a user.
 
 // 7. Fix animation first pop in on page-load
 
@@ -58,7 +65,7 @@
 11.  Make site mobile responsive
   // 11. a. Contact page submit button disappears under footer on small screen
 
-12.  fix look of tabs in navbar on hover
+// 12.  fix look of tabs in navbar on hover
 
 13. volume of roar
 
@@ -80,7 +87,7 @@ Forward domain to your github pages with a CNAME record
 17. Separate navbar/footer into separate files that each page references (consistency)
 
 
-Chanhe navbar blue to color to somethinh else like red or grey to be more consistant.
+Change navbar blue to color to somethinh else like red or grey to be more consistant.
 
 
 First Feedback Session with Client :
@@ -88,10 +95,10 @@ First Feedback Session with Client :
 //A. Change navbar item color from blue to red or some grey.
 B. Simplyfy the recipes, dont have seperate sections for each type
    at least for now but perhaps re-instate one day when there is more content.
-C. Change ABOUT page to be more like iPhone page.
+// C. Change ABOUT page to be more like iPhone page.
 
 Second feedback session : 
-Client happy with the mobile approach to the About section, so will be applying the same structure to the other sections.
+// Client happy with the mobile approach to the About section, so will be applying the same structure to the other sections.
 Client is planning on getting some more professional photos taken that they will then provide to us for the final site.
 
 
