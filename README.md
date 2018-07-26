@@ -1,6 +1,8 @@
 # README
 
-# Smokasaurus Product Page- 
+## Check it out live on GitHub Pages:    [Smokasaurus](https://polaristlx.github.io/Smokasaurus-Project/)
+
+## Smokasaurus Product Page- 
 
 This is a product page designed and built from scratch for a client. 
 Realised with CSS Grid, Bootstrap 4, jQuery and JavaScript.
@@ -10,8 +12,6 @@ Met with client at various milestones to gather and implement feedback throughou
 
 =======
 
-Check out the live version on Github: https://polaristlx.github.io/Smokasaurus-Project/
-=======
 
 
 ## Authors
